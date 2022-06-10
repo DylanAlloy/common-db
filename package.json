@@ -1,0 +1,25 @@
+{
+  "name": "common-auth-ldap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.spectrumflow.net/cot/infrastructure/internal-api/common-project/common-auth-ldap.git"
+  },
+  "author": "Dylan Moore",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.19.1",
+    "mongoose": "^6.3.3",
+    "path": "^0.12.7"
+  }
+}

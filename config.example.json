@@ -1,0 +1,6 @@
+{
+    "db": {
+        "url": "<mongo string>"
+    }
+    , "servicePort": "3002"
+}
