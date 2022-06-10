@@ -1,0 +1,6 @@
+{
+    "db": {
+        "url": "host.docker.internal:27017"
+    }
+    , "servicePort": "3002"
+}

@@ -4,7 +4,6 @@ const router = express.Router();
 /* A route that returns the health of the application. */
 router.get('/', (req, res) => {
     var health = {};
-    
     var fs = require('fs'), obj
     fs.readFile(`${__dirname}/../config.json`, handleFile)
     function handleFile(err, data) {
